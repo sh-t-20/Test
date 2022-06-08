@@ -1502,7 +1502,7 @@ public class LearningOrderSampling {
 		options.addOption(SOT2, true, "Save observation table (OT) to the disk");
 		options.addOption(HELP, false, "Shows help");
 		options.addOption(OT, true, "Load observation table (OT)");
-		options.addOption(OUT, true, "Set output directory");
+		options.addOption(OUT, true, "The output directory");
 		options.addOption(CLOS, true,
 				"Set closing strategy." + "\nOptions: {" + String.join(", ", closingStrategiesAvailable) + "}");
 		options.addOption(EQ, true,

@@ -122,7 +122,7 @@ public class ConvertToExcelFile {
 //			String text_1 = Files.readString(text_file.toPath(), StandardCharsets.UTF_8);
 			
 			
-			File result_file = new File(out_dir, "metrics_result.txt");
+			File result_file = new File(out_dir, "metrics_result.csv");
 //			PrintWriter out = new PrintWriter(result_file);
 //			out.println(result);
 			FileWriter file_stream = new FileWriter(result_file);
