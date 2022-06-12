@@ -83,10 +83,10 @@ public class CalculateOrderMetric {
 	};
 
 //	Minepump SPL
-//	static long seed = 1649657577795L;
+	static long seed = 1649657577795L;
 
 //	BCS SPL
-	static long seed = 1649405545460L;
+//	static long seed = 1649405545460L;
 
 //	static long seed = 1234;
 	private static Random rand = new Random(seed);

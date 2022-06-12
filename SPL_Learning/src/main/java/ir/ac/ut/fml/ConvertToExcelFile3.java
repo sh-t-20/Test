@@ -62,6 +62,7 @@ public class ConvertToExcelFile3 {
 			File out_dir = new File(line.getOptionValue(OUT));
 
 			String result = "";
+			result = "Learning order,Order metric" + "\n";
 
 			BufferedReader br = new BufferedReader(new InputStreamReader(text_file));
 			String line_1 = "";
